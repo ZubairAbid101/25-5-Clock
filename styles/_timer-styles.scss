@@ -1,0 +1,35 @@
+#timer-wrapper{
+    margin: 10px;
+}
+
+#timer-label, #time-left{
+    text-align: center;
+}
+
+#timer-label{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+#time-left{
+    font-size: 4rem;
+}
+
+#timer-controls{
+    display: flex;
+    justify-content: center;
+}
+
+#start_stop, #reset{
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(134, 58, 58);
+    color: white;
+    font-size: 1.1rem;
+    font-family: monospace;
+    font-weight: 500;
+}
+
+#start_stop:hover, #reset:hover{
+    background-color: gray;
+}

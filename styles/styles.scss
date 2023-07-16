@@ -1,0 +1,26 @@
+@use "./clock-styles";
+@use "./break-session-styles";
+@use "./timer-styles";
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    min-height: 100vh;
+    margin: 0;
+    background-color: #1e555c;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#session-length-controls-wrapper, #break-length-controls-wrapper{
+    display: flex;
+}

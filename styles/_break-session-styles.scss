@@ -1,0 +1,52 @@
+#break-and-session-length-wrapper{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#break-length-wrapper, #session-length-wrapper{
+    margin: 10px;
+    padding: 5px;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px 1px gray;
+}
+
+#session-label, #break-label{
+    text-align: center;
+    font-size: 2rem;
+}
+
+#session-length-controls-wrapper, #break-length-controls-wrapper{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#session-length, #break-length{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+#break-increment, #break-decrement, #session-increment, #session-decrement{
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(134, 58, 58);
+    color: white;
+    font-size: 1.1rem;
+    font-family: monospace;
+    font-weight: 500;
+}
+
+#break-increment:hover, #break-decrement:hover, #session-increment:hover, #session-decrement:hover{
+    background: gray;
+}
+
+#break-increment:disabled, #break-decrement:disabled, #session-increment:disabled, #session-decrement:disabled{
+    background-color: rgb(200, 124, 124);
+}
